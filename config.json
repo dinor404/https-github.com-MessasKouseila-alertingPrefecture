@@ -1,23 +1,23 @@
 {
   "email": {
     "port": 587,
-    "smtp_server": "smtp.gmail.com",
-    "sender_email": "kouseila1994@gmail.com",
-    "receiver_email": "messas.kous@gmail.com",
-    "password": "sender-email",
-    "default_message": "https://www.hauts-de-seine.gouv.fr/booking/create/13525/0"
+    "smtp_server": "smtp.mailtrap.io",
+    "sender_email": "nourdin.jabili@gmail.com",
+    "sender_email_to": "nourdin.jabili@gmail.com",
+    "password": "e5d8ccc1db6cf6",
+    "default_message": "http://www.hauts-de-seine.gouv.fr/booking/create/12245/0"
   },
   "site": {
-    "url": "https://www.hauts-de-seine.gouv.fr/booking/create/13525/0",
+    "url": "http://www.hauts-de-seine.gouv.fr/booking/create/12245/0",
     "headers": {
       "user-agent": "my-app/0.0.1"
     },
-    "nextButton": {
+    "params": {
       "condition": "on",
       "nextButton": "Effectuer+une+demande+de+rendez-vous"
     },
-    "regex": "Description de la nature du rendez-vous",
-    "time": 60,
-    "max_alert": 5
+    "regex": "Il n'existe plus de plage horaire libre pour votre demande de rendez-vous",
+    "time": 300,
+    "max_alert": 10
   }
 }
